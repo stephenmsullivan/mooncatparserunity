@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33677cffed7154e5a88faf27e3438b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catId: 0x002a0f888f
+  catId: 0xff0b000ca7
 --- !u!222 &279067221
 CanvasRenderer:
   m_ObjectHideFlags: 0

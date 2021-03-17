@@ -188,15 +188,15 @@ public class MoonCatParser : MonoBehaviour
 		string[] design = designs[k].Split('.');
 		Color[] colors;
 
-		if (genesis == 1)
+		if (genesis != 0)
 		{
 			if (k % 2 == 0 && invert || k % 2 == 1 && !invert)
 			{
-				colors = new Color[] { GetColorFromHexString("#000000"), GetColorFromHexString("#555555"), GetColorFromHexString("#d3d3d3"), GetColorFromHexString("#ffffff"), GetColorFromHexString("#aaaaaa"), GetColorFromHexString("#ff9999") };
+				colors = new Color[] { GetColorFromHexString("#00000000"), GetColorFromHexString("#555555"), GetColorFromHexString("#d3d3d3"), GetColorFromHexString("#ffffff"), GetColorFromHexString("#aaaaaa"), GetColorFromHexString("#ff9999") };
 			}
 			else
 			{
-				colors = new Color[] { GetColorFromHexString("#000000"), GetColorFromHexString("#555555"), GetColorFromHexString("#222222"), GetColorFromHexString("#111111"), GetColorFromHexString("#bbbbbb"), GetColorFromHexString("#ff9999") };
+				colors = new Color[] { GetColorFromHexString("#00000000"), GetColorFromHexString("#555555"), GetColorFromHexString("#222222"), GetColorFromHexString("#111111"), GetColorFromHexString("#bbbbbb"), GetColorFromHexString("#ff9999") };
 			}
 		}
 		else
